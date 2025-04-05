@@ -48,12 +48,14 @@ export function SubscriberForm() {
             <Form.Select
               name="subject"
             >
-              <option value="select-dropdown">Select dropdown</option>
-              <option value="with-options">With options</option>
+              <option value="select-dropdown">Select contact option</option>
+              <option value="with-options">Phone Number - call</option>
+              <option value="with-options">Phone Number - text</option>
+              <option value="with-options">Email</option>
             </Form.Select>
           </Form.Control>
           <Form.Control fullwidth loading>
-            <Form.Input placeholder="With loading state" />
+            <Form.Input placeholder="Enter selected contact type" />
           </Form.Control>
         </Form.Field>
       </Form.Field>
